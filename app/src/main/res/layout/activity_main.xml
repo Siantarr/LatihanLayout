@@ -20,7 +20,7 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <!-- HEADER -->
+
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -85,10 +85,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="16dp" />
 
-            <!-- MY ORDER -->
-            <!-- CONTAINER My Order dengan rounded bg -->
-            <!-- CONTAINER My Order dengan rounded bg -->
-            <!-- CONTAINER My Order dengan rounded bg -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -98,7 +95,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="5dp">
 
-                <!-- Judul: My Order + All > -->
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -124,7 +121,7 @@
                         android:textColor="@color/gray_dark"/>
                 </LinearLayout>
 
-                <!-- Scrollable icons -->
+
                 <HorizontalScrollView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -139,13 +136,13 @@
                         android:orientation="horizontal"
                         android:clipChildren="false">
 
-                        <!-- PAY -->
+
                         <FrameLayout
                             android:layout_width="64dp"
                             android:layout_height="88dp"
                             android:layout_marginEnd="16dp">
 
-                            <!-- geser icon/text turun 8dp -->
+
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -167,7 +164,7 @@
                                     android:layout_marginTop="4dp"/>
                             </LinearLayout>
 
-                            <!-- badge di pojok atas-end, tanpa margin negatif -->
+
                             <TextView
                                 android:layout_width="16dp"
                                 android:layout_height="16dp"
@@ -181,7 +178,7 @@
                                 android:gravity="center"/>
                         </FrameLayout>
 
-                        <!-- SHIP -->
+
                         <FrameLayout
                             android:layout_width="64dp"
                             android:layout_height="88dp"
@@ -221,7 +218,7 @@
                                 android:gravity="center"/>
                         </FrameLayout>
 
-                        <!-- RECEIVE -->
+
                         <FrameLayout
                             android:layout_width="64dp"
                             android:layout_height="88dp"
@@ -261,7 +258,7 @@
                                 android:gravity="center"/>
                         </FrameLayout>
 
-                        <!-- REVIEW -->
+
                         <FrameLayout
                             android:layout_width="64dp"
                             android:layout_height="88dp"
@@ -301,7 +298,6 @@
                                 android:gravity="center"/>
                         </FrameLayout>
 
-                        <!-- REFUND (tanpa badge) -->
                         <FrameLayout
                             android:layout_width="64dp"
                             android:layout_height="88dp">
@@ -331,7 +327,7 @@
                 </HorizontalScrollView>
             </LinearLayout>
 
-            <!-- FAVORITES / HISTORY / GIFTS -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -405,13 +401,12 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <!-- BANNER -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:padding="12dp"
-                app:cardBackgroundColor="@color/light_orange"
+
                 app:cardCornerRadius="8dp">
 
                 <LinearLayout
@@ -557,14 +552,13 @@
         </LinearLayout>
     </ScrollView>
 
-    <!-- BOTTOM NAVIGATION HARD-CODED -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:background="@color/white"
         android:orientation="horizontal">
 
-        <!-- Home -->
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -586,7 +580,7 @@
 
         </LinearLayout>
 
-        <!-- Discover -->
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -634,12 +628,12 @@
                     android:textColor="@color/black"
                     android:textSize="12sp" />
             </LinearLayout>
-            <!-- red dot -->
+
             <View
                 android:layout_width="8dp"
                 android:layout_height="8dp"
                 android:layout_gravity="top|center_horizontal"
-                android:background="@drawable/circle_red"
+                android:background="@drawable/circle_badge_red"
                 android:translationY="12dp" />
         </FrameLayout>
 
@@ -665,7 +659,7 @@
                 android:textSize="12sp" />
         </LinearLayout>
 
-        <!-- Me -->
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
