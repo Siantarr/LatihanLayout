@@ -125,7 +125,7 @@
                         <ImageView
                             android:layout_width="56dp"
                             android:layout_height="56dp"
-                            android:background="@drawable/circle_category"
+                            android:background="@drawable/white_green_circle"
                             android:src="@drawable/ic_organic"
                             android:padding="12dp"/>
 
@@ -148,7 +148,7 @@
                         <ImageView
                             android:layout_width="56dp"
                             android:layout_height="56dp"
-                            android:background="@drawable/circle_category"
+                            android:background="@drawable/white_green_circle"
                             android:src="@drawable/ic_seasonal"
                             android:padding="12dp"/>
 
@@ -171,7 +171,7 @@
                         <ImageView
                             android:layout_width="56dp"
                             android:layout_height="56dp"
-                            android:background="@drawable/circle_category"
+                            android:background="@drawable/white_green_circle"
                             android:src="@drawable/ic_fresh"
                             android:padding="12dp"/>
 
@@ -194,7 +194,7 @@
                         <ImageView
                             android:layout_width="56dp"
                             android:layout_height="56dp"
-                            android:background="@drawable/circle_category"
+                            android:background="@drawable/white_green_circle"
                             android:src="@drawable/ic_vegan"
                             android:padding="12dp"/>
 
@@ -216,7 +216,7 @@
                         <ImageView
                             android:layout_width="56dp"
                             android:layout_height="56dp"
-                            android:background="@drawable/circle_category"
+                            android:background="@drawable/white_green_circle"
                             android:src="@drawable/ic_local"
                             android:padding="12dp"/>
 
